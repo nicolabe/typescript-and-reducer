@@ -1,0 +1,25 @@
+/* Form */
+.input {
+  padding: 1rem;
+}
+
+.button {
+  padding: 1rem;
+}
+
+/* List */
+.wrapper {
+  width: 100%;
+}
+
+.list {
+  list-style: none;
+}
+
+.item {
+  font-size: 1.2rem;
+  padding: 0.6rem;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  color: #444;
+}

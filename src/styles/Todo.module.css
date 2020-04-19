@@ -1,15 +1,22 @@
 /* Form */
 .input {
   padding: 1rem;
+  font-size: 22px;
+  border-color: var(--primary-color);
 }
 
 .button {
   padding: 1rem;
+  font-size: 22px;
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  color: var(--text-color);
 }
 
 /* List */
 .wrapper {
   width: 100%;
+  margin-top: 2em;
 }
 
 .list {
@@ -22,4 +29,7 @@
   border: 2px solid #ccc;
   border-radius: 4px;
   color: #444;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
 }

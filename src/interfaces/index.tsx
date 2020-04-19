@@ -7,7 +7,8 @@ export interface TodoInterface {
 
 export interface TodoContextInterface {
   todos: Array<TodoInterface>,
-  addTodo(name: string): void
+  addTodo(name: string): void,
+  toggleCompleted(id: string): void
 };
 
 export interface ActionObject {

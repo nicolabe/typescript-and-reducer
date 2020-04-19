@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { TodoContext } from "./TodoContext";
 import styles from "../styles/Todo.module.css";
+import { Todo } from "./Todo";
 
 export const Todos = () => {
   const { todos } = useContext(TodoContext);
@@ -9,9 +10,7 @@ export const Todos = () => {
     <div className={styles.wrapper}>
       <ul className={styles.list}>
         {todos.map((todo) => (
-          <li className={styles.item} key={todo.id}>
-            {todo.name}
-          </li>
+          <Todo key={todo.id} {...todo} />
         ))}
       </ul>
     </div>
